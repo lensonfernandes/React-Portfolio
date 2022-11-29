@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -60px;
 }
 
-.skill h5{
+.skill h2{
   font-size: 45px;
   font-weight: 700;
 }
@@ -79,6 +79,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 40%;
   z-index: -4;
 }
+
+
+/* projects */
 
 
 .App {
