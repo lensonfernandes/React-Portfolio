@@ -1,6 +1,6 @@
 /* Custom fonts to be imported */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 
 
 
@@ -24,6 +24,8 @@ body{
   position: relative;
   background-color: #121212 !important;
   color: #fff !important;
+  font-family: 'Aboreto', cursive !important;
+  
   
 }
 
