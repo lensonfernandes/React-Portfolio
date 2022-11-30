@@ -48,11 +48,11 @@ const onUpdateActiveLink = (value) => {
            
           </Nav>
           <span className="navbar-text">
-            <div className="social-icon">
+            {/* <div className="social-icon">
               <a href="#"><img src={""} alt="Icon1" /></a>
               <a href="#"><img src={""} alt="Icon2" /></a>
               <a href="#"><img src={""} alt="Icon3" /></a>
-            </div>
+            </div> */}
             <button className="vvd" onClick={ () => console.log('connect')}><span>Let's Connect</span></button>
           </span>
 
