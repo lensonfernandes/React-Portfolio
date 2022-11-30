@@ -152,6 +152,15 @@ nav.navbar .navbar-toggler-icon{
 
 #home{
   margin-top: 25vh;
+  height: 50vh;
+}
+
+.trackvisibility > div{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  
 }
 
 .skill{
@@ -159,6 +168,10 @@ nav.navbar .navbar-toggler-icon{
   position: relative;
 
 
+}
+
+#skills{
+  margin-top: 15vh;
 }
 
 .skill-bx{

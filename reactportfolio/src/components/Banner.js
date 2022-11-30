@@ -4,6 +4,7 @@ import {ArrowRightCircle} from 'react-bootstrap-icons';
 import {useState, useEffect} from 'react'
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
+import reactBannerImg from '../assets/img/reactBanner.svg'
 
 
 export default function Banner() {
@@ -52,9 +53,9 @@ export default function Banner() {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
 
-                        <TrackVisibility >
+                        <TrackVisibility className="trackvisibility">
                         {({ isVisible}) => 
-                                          <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                         <span className="tagline"> Welcome to my Portfolio</span>
                         <h1>{"Hi I'm Lenson"} <span className="wrap">{text}</span></h1>
                         <p> If the sentence is the essential soul to express oneself in their own way, then the paragraph is the virtual body of it. The Text Generator is an intelligent tool that creates random text incorporated with random thoughts
@@ -65,7 +66,7 @@ export default function Banner() {
                     
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={""} alt="Header Img" />
+                        <img src={reactBannerImg} alt="Header Img" />
                     </Col>
                 </Row>
             </Container>
