@@ -223,7 +223,7 @@ nav.navbar .navbar-toggler-icon{
   margin-left: 24px;
 }
 
-.banner img{
+/* .banner img{
   animation: updown1 3s linear infinite;
 
   @keyframes updown1{
@@ -237,6 +237,20 @@ nav.navbar .navbar-toggler-icon{
       transform: translateY(-20px);
     }
   }
+} */
+.banner img {
+  animation: updown 3s linear infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
 }
 
 .txt-rotate > .wrap{
