@@ -24,7 +24,7 @@ body{
   position: relative;
   background-color: #121212 !important;
   color: #fff !important;
-  font-family: 'Aboreto', cursive !important;
+  
   
   
 }
@@ -192,6 +192,7 @@ nav.navbar .navbar-toggler-icon{
   line-height: 1;
   margin-bottom: 18px;
   display: block;
+  font-family: 'Aboreto', cursive !important;
 }
 
 .banner p{
@@ -210,6 +211,9 @@ nav.navbar .navbar-toggler-icon{
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+  background-color: #B8B8B8;
+  border-radius: 5px;
+  border-style: none;
 }
 
 .banner button svg{
@@ -314,7 +318,8 @@ nav.navbar .navbar-toggler-icon{
 
 
 .App {
-  text-align: center;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
 }
 
 .App-logo {

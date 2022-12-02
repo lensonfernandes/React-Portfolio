@@ -57,10 +57,23 @@ export default function Banner() {
                         {({ isVisible}) => 
                  <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                         <span className="tagline"> Welcome to my Portfolio</span>
-                        <h1>{"Hi I'm Lenson"} <span className="wrap">{text}</span></h1>
-                        <p> If the sentence is the essential soul to express oneself in their own way, then the paragraph is the virtual body of it. The Text Generator is an intelligent tool that creates random text incorporated with random thoughts
+                        <br/>
+                        <br/>
+                        <br/>
+                        <h1>{"Hi, I'm Lenson! "}<br></br> <span className="wrap">{text}</span></h1>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <p> A Critical thinker with 3+ years of experience
+in the Virtualization and Cloud industry as a
+Support Expert.
+Currently performing a switch from Support
+to Frontend Engineering, to express my
+innovative creative skills for company growth
+and self.
+
                         </p>
-                        <button onClick={()=>console.log('connect')} >Let's Connect <ArrowRightCircle size={25}/> </button>
+                        <button onClick={()=>console.log('connect')}  className="bg-dark p-2">Let's Connect <ArrowRightCircle size={25}/> </button>
                         </div> }
                         </TrackVisibility>
                     
