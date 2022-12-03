@@ -289,7 +289,7 @@ nav.navbar .navbar-toggler-icon{
 .skill p{
   color: #B8B8B8;
   font-size: 18px;
-  letter-spacing: 1.5em;
+  /* letter-spacing: 1.15em; */
   margin: 14px 0 75px 0;
 
 }
