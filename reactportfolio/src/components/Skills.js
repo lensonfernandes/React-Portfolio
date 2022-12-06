@@ -5,6 +5,7 @@ import {Container, Row, Col} from "react-bootstrap"
 import reactImg from '../assets/img/reactImg.jpg'
 import htmlImg from '../assets/img/htmlImg.png'
 import cssImg from '../assets/img/cssImg.png'
+import colorSharp from '../assets/img/color-sharp.png'
 
 export default function Skills() {
   const responsive = {
@@ -55,7 +56,7 @@ return (
         </Col>
       </Row>
     </Container>
-    <img className='background-image-left' src={""} alt='bg-left' />
+    <img className='background-image-left' src={colorSharp} alt='bg-left' />
   </section>
 )
 

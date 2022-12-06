@@ -2,23 +2,27 @@ import React from "react";
 import {Col, Container, Tab, Nav, Row} from "react-bootstrap"
 import ProjectCard from './ProjectCard'
 import TrackVisibility from 'react-on-screen'
+import portfolioImg from '../assets/img/portfolioImg.png'
+import budgetImg from '../assets/img/budgetImg.png'
+import typeImg from '../assets/img/typeImg.png'
+import colorSharp2 from '../assets/img/color-sharp2.png'
 
 export default function Projects() {
   const projects = [
     {
-      title: "Project 1",
-      description: "Description 1",
-      imgUrl: "Image1",
+      title: "Portfolio",
+      description: "My Work Store House",
+      imgUrl: portfolioImg,
     },
     {
-      title: "Project 2",
-      description: "Description 2",
-      imgUrl: "Image2",
+      title: "Budget App",
+      description: "Budget and Expense Tracking app",
+      imgUrl: budgetImg,
     },
     {
-      title: "Project 3",
-      description: "Description 3",
-      imgUrl: "Image3",
+      title: "Type Master",
+      description: "App to undertake Typing Tests and get Analysis of Performance",
+      imgUrl: typeImg,
     },
   ];
 
@@ -30,26 +34,26 @@ export default function Projects() {
           <TrackVisibility >
                         {({ isVisible}) => 
                                           <div className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-            <h2>Projects</h2>
-            <p>This is random text.</p>
+            <h2>Work</h2>
+            <p>Check out my Recent Work!    Click below Tabs for More Details.</p>
             </div>}
             </TrackVisibility>
             <Tab.Container>
-            <Nav variant="pills" defaultActiveKey="first" className="nav-pills mb-5 justify-content-center align-items-cengter" id="pills-tab">
+            <Nav variant="pills" defaultActiveKey="first" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
               <Nav.Item>
-                <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                <Nav.Link eventKey="first" active='true'>Recently Updated Apps</Nav.Link>
               </Nav.Item>
-              <Nav.Item>
+              {/* <Nav.Item>
                 <Nav.Link eventKey="second">Tab 2</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link eventKey="third">
                   Tab 3
                 </Nav.Link>
-              </Nav.Item>
+              </Nav.Item> */}
             </Nav>
-            <Tab.Content>
-              <Tab.Pane eventKey='first'>
+            <Tab.Content >
+              <Tab.Pane eventKey='first' active='true'>
                   <Row>
                     {
                       projects.map((project, index)=>{
@@ -63,19 +67,19 @@ export default function Projects() {
                     }
                   </Row>
               </Tab.Pane>
-              <Tab.Pane eventKey="second">
+              {/* <Tab.Pane eventKey="second">
                     Random text
               </Tab.Pane>
               <Tab.Pane eventKey="third">
                    Random text
-              </Tab.Pane>
+              </Tab.Pane> */}
               
             </Tab.Content>
             </Tab.Container>
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={""}></img>
+      <img className="background-image-right" src={colorSharp2}></img>
     </section>
   );
 }
