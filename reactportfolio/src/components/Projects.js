@@ -3,7 +3,7 @@ import {Col, Container, Tab, Nav, Row} from "react-bootstrap"
 import ProjectCard from './ProjectCard'
 import TrackVisibility from 'react-on-screen'
 import portfolioImg from '../assets/img/portfolioImg.png'
-import budgetImg from '../assets/img/budgetImg.png'
+import weatherImg from '../assets/img/weatherImg.png'
 import typeImg from '../assets/img/typeImg.png'
 import colorSharp2 from '../assets/img/color-sharp2.png'
 
@@ -11,18 +11,21 @@ export default function Projects() {
   const projects = [
     {
       title: "Portfolio",
-      description: "My Work Store House",
+      description: "My Work: Store-House",
       imgUrl: portfolioImg,
+      url:'https://len-portfolio.netlify.app/'
     },
     {
-      title: "Budget App",
-      description: "Budget and Expense Tracking app",
-      imgUrl: budgetImg,
+      title: "Weather App",
+      description: "Helps find the weather forecast of a City for the next 7 days",
+      imgUrl: weatherImg,
+      url: "https://weatherlen.netlify.app/"
     },
     {
       title: "Type Master",
       description: "App to undertake Typing Tests and get Analysis of Performance",
       imgUrl: typeImg,
+      url:'https://typemasterlen.netlify.app/'
     },
   ];
 
@@ -79,7 +82,7 @@ export default function Projects() {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      {/* <img className="background-image-right" src={colorSharp2}></img> */}
     </section>
   );
 }
