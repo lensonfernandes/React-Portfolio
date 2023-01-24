@@ -73,7 +73,7 @@ innovative creative skills for company growth
 and self.
 
                         </p>
-                        <button onClick={()=>console.log('connect')}  className="bg-dark p-2">Let's Connect <ArrowRightCircle size={25}/> </button>
+                        <button onClick={()=>console.log('connect')}  className="bg-dark p-2"><a href="https://www.linkedin.com/in/lenson-fernandes-6237091a2" className="text-white" style={{textDecoration: "none"}}>Let's Connect on LinkedIn</a><ArrowRightCircle size={25}/> </button>
                         </div> }
                         </TrackVisibility>
                     
