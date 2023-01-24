@@ -53,7 +53,7 @@ const onUpdateActiveLink = (value) => {
               <a href="#"><img src={""} alt="Icon2" /></a>
               <a href="#"><img src={""} alt="Icon3" /></a>
             </div> */}
-            <button className="vvd" onClick={ () => console.log('connect')}><span>Let's Connect</span></button>
+            <button className="vvd" onClick={ () => console.log('connect')}><span><a href="https://github.com/lensonfernandes" id="navbar-a">Check out my GitHub</a></span></button>
           </span>
 
         </Navbar.Collapse>

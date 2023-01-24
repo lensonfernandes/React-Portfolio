@@ -132,6 +132,7 @@ span.navbar-text{
   transition: 0.3s ease-in-out;
 }
 
+
 .navbar-text button span {
   z-index: 1;
 }
@@ -448,4 +449,8 @@ nav.navbar .navbar-toggler-icon{
   to {
     transform: rotate(360deg);
   }
+}
+
+#navbar-a{
+  color: white;
 }
