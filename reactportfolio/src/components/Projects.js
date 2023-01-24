@@ -5,6 +5,8 @@ import TrackVisibility from 'react-on-screen'
 import portfolioImg from '../assets/img/portfolioImg.png'
 import weatherImg from '../assets/img/weatherImg.png'
 import typeImg from '../assets/img/typeImg.png'
+import budgetImg from '../assets/img/budgetImg.png'
+import lorettoConnect from '../assets/img/lorettoConnect.png'
 import colorSharp2 from '../assets/img/color-sharp2.png'
 
 export default function Projects() {
@@ -16,7 +18,7 @@ export default function Projects() {
       url:'https://len-portfolio.netlify.app/'
     },
     {
-      title: "Weather App",
+      title: "Weather Lens",
       description: "Helps find the weather forecast of a City for the next 7 days",
       imgUrl: weatherImg,
       url: "https://weatherlen.netlify.app/"
@@ -26,6 +28,18 @@ export default function Projects() {
       description: "App to undertake Typing Tests and get Analysis of Performance",
       imgUrl: typeImg,
       url:'https://typemasterlen.netlify.app/'
+    },
+    {
+      title: "Budget Expense Tracker",
+      description: "Implemented Budget and Expense tracking app with custom Cards showing the current monetary status with Progress Bar and by saving data in Local Storage.",
+      imgUrl: budgetImg,
+      url:'https://budget-expense-len.netlify.app/'
+    },
+    {
+      title: "Connect Loretto",
+      description: "A React app helping connect the neighborhood of Loretto(Mangalore) by providing information regarding events of Past and Upcoming weeks.",
+      imgUrl: lorettoConnect,
+      url:'https://connectloretto.netlify.app/'
     },
   ];
 
