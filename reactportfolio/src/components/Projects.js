@@ -56,7 +56,7 @@ export default function Projects() {
             </div>}
             </TrackVisibility>
             <Tab.Container>
-            <Nav variant="pills" defaultActiveKey="first" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+            <Nav variant="pills" defaultActiveKey="first" className="nav-pills mb-5 justify-content-center align-items-center gap-2" id="pills-tab">
               <Nav.Item>
                 <Nav.Link eventKey="first" active='true'>Recently Updated Apps</Nav.Link>
               </Nav.Item>
